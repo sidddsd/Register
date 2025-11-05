@@ -1,11 +1,10 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    color: black;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: black;
 }
-
 
 button,
 input {
@@ -13,86 +12,84 @@ input {
 }
 
 body {
-            background-color: #d4c4a8;
-            font-family: 'Courier New', monospace;
-        }
+  background-color: #d4c4a8;
+  font-family: "Courier New", monospace;
+}
 
-        .container {
-            background-color: #e8f4f0;
-            width: 350px;
-            margin: 50px auto;
-            padding: 40px;
-            border: 1px solid #a8b8a0;
-        }
+.container {
+  background-color: #e8f4f0;
+  width: 350px;
+  margin: 50px auto;
+  padding: 40px;
+  border: 1px solid #a8b8a0;
+}
 
-        label {
-            color: #6b7d6b;
-            font-size: 13px;
-        }
+label {
+  color: #6b7d6b;
+  font-size: 13px;
+}
 
-        input[type="text"],
-        input[type="email"],
-        input[type="password"],
-        input[type="date"] {
-            width: 100%;
-            padding: 10px;
-            margin-top: 3px;
-            margin-bottom: 12px;
-            border: none;
-            border-bottom: 2px solid #5a7a7c;
-            background-color: #c8e0dc;
-            border-radius: 8px 8px 0 0;
-        }
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 3px;
+  margin-bottom: 12px;
+  border: none;
+  border-bottom: 2px solid #5a7a7c;
+  background-color: #c8e0dc;
+  border-radius: 8px 8px 0 0;
+}
 
-        input[type="date"] {
-            color: #5a5a5a;
-        }
+input[type="date"] {
+  color: #5a5a5a;
+}
 
-        select {
-            width: 100%;
-            padding: 8px;
-            margin-top: 3px;
-            margin-bottom: 20px;
-            border: 1px solid #5a7a7c;
-            background-color: white;
-            font-size: 13px;
-        }
+select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 3px;
+  margin-bottom: 20px;
+  border: 1px solid #5a7a7c;
+  background-color: white;
+  font-size: 13px;
+}
 
-        .gender {
-            margin-top: 15px;
-            margin-bottom: 25px;
-        }
+.gender {
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
 
-        .gender label {
-            margin-right: 5px;
-            margin-left: 15px;
-        }
+.gender label {
+  margin-right: 5px;
+  margin-left: 15px;
+}
 
-        .gender label:first-child {
-            margin-left: 0;
-        }
+.gender label:first-child {
+  margin-left: 0;
+}
 
-        
-        input[type="checkbox"] {
-            margin-right: 5px;
-        }
+input[type="checkbox"] {
+  margin-right: 5px;
+}
 
-        button {
-            background-color: #d8e8d8;
-            color: black;
-            padding: 8px 50px;
-            border: 1px solid #7a9a7a;
-            border-radius: 20px;
-            cursor: pointer;
-            margin-top: 20px;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            font-size: 14px;
-            font-family: 'Courier New', monospace;
-        }
+button {
+  background-color: #d8e8d8;
+  color: black;
+  padding: 8px 50px;
+  border: 1px solid #7a9a7a;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 14px;
+  font-family: "Courier New", monospace;
+}
 
-        button:hover {
-            background-color: #c8d8c8;
-        }
-    
+button:hover {
+  background-color: #c8d8c8;
+}
